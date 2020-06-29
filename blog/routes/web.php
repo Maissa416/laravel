@@ -15,11 +15,14 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('index');
 });
-Route::post('/offres', 'OffreController@ajoutOffre');
 
 Route::get('index', function () {
     return view('index');
 });
+Route::get('offres', function () {
+    return view('offres');
+});
+
 Route::get('calendar', function () {
     return view('calendar');
 });
@@ -30,7 +33,9 @@ Route::get('manager', function () {
 Route::get('doit_dacces', function () {
     return view('doit_dacces');
 });
-Route::get('offres', 'OffreController@creat');
+
+
+
 Route::get('inbox', function () {
     return view('inbox');
 });

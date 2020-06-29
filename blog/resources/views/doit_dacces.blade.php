@@ -40,7 +40,7 @@
          <input type="checkbox" checked="" data-toggle="switch"id=""/>
          </td >
          <td>
-          <label size="30ppx">&nbsp;<strong>Enquéte de Satisfaction</strong> </label>
+          <label size="30ppx">&nbsp;<strong>Challenges</strong> </label>
          </td>
      </tr>
      <tr>
